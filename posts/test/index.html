@@ -30,12 +30,12 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9971df70eff8134efa7b93bc64f4efaa46b7c058d0e1f2b7b3e94ea6fd4f49b489338672d63f6b13b4195af7561f90d9059d020ced8eb2b9678d81e44b107836.css"
-    integrity="sha512-mXHfcO/4E076e5O8ZPTvqka3wFjQ4fK3s&#43;lOpv1PSbSJM4Zy1j9rE7QZWvdWH5DZBZ0CDO2OsrlnjYHkSxB4Ng==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.413060304373ddea6db0556c5e6bd5b8d4a28764b29ea477c5273425a06abe45a66c0bb3e666bdebb82b5850962eb66efe479b06cdbddcdc5d08958ecbc51807.css"
+    integrity="sha512-QTBgMENz3eptsFVsXmvVuNSih2SynqR3xSc0JaBqvkWmbAuz5ma967grWFCWLrZu/kebBs293NxdCJWOy8UYBw==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.f94f4c4636d9e3ec8f5ee53cdc8ffa3d01bf87cd92ac85e6797550b1e2b80dc9118d838f3eb24c55109352455e72ff082dfe560283154e5a8f87fd75107b59c4.js"
-    integrity="sha512-&#43;U9MRjbZ4&#43;yPXuU83I/6PQG/h82SrIXmeXVQseK4DckRjYOPPrJMVRCTUkVecv8ILf5WAoMVTlqPh/11EHtZxA=="></script>
+  <script type="text/javascript" src="/js/appearance.min.a75d508cf75a202afc48fe649516720f8036bda3657897f6cc07dab21f94fa9c3933edbbfc2936f8d3a426f45ac6153237a48aec9115147c5e03db1c5b62b8bc.js"
+    integrity="sha512-p11QjPdaICr8SP5klRZyD4A2vaNleJf2zAfash&#43;U&#43;pw5M&#43;27/Ck2&#43;NOkJvRaxhUyN6SK7JEVFHxeA9scW2K4vA=="></script>
   
   
   
@@ -154,7 +154,7 @@
 
   
   
-  
+  <meta name="theme-color"/>
   
   
 </head>
@@ -168,7 +168,7 @@
   
   
   <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px] sbackdrop-blur-xl sshadown-2xl" style="z-index:100">
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
   <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
@@ -231,7 +231,6 @@
 
             
 
-
             
             <button id="search-button" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
                 title="">
@@ -256,7 +255,6 @@
             <span></span>
 
             
-
 
             
             <button id="search-button-mobile" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
@@ -1389,6 +1387,34 @@
   
   <script type="text/javascript" src="/js/process.min.2166d3adac1679c00a75161830ab5725d3efc0e3d3f8c2453fb01d0907948436c25f0f8a7ad824322fa22f3f9c85fd4d0a1d5c856f53b862157da25a57dc3d52.js" integrity="sha512-IWbTrawWecAKdRYYMKtXJdPvwOPT&#43;MJFP7AdCQeUhDbCXw&#43;KetgkMi&#43;iLz&#43;chf1NCh1chW9TuGIVfaJaV9w9Ug=="></script>
   
+  
+   
+
+
+    
+
+    
+
+
+
+  
+  
+  
+  
+
+
+<p class="text-xs text-neutral-500 dark:text-neutral-400">看了 <span id="days">0</span> 次日出，唠了 1.5k 字的嗑
+</p>
+
+ 
+<script>
+    var s1 = '2023-02-19';
+    s1 = new Date(s1.replace(/-/g, "/"));
+    s2 = new Date();
+    var days = s2.getTime() - s1.getTime();
+    var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+    document.getElementById('days').innerHTML = number_of_days;
+</script>
   
 </footer><div
   id="search-wrapper"
