@@ -5,6 +5,7 @@
     <link>https://yuanchencheung.github.io/about/</link>
     <description>Recent content in About on 宿醉春山</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://yuanchencheung.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <copyright>[Copyright © 2023 宿醉春山](https://yuanchencheung.github.io)</copyright><atom:link href="https://yuanchencheung.github.io/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
