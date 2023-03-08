@@ -50,4 +50,12 @@
   
     
   
+    
+      <url>
+            <loc>https://yuanchencheung.github.io/info/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
 </urlset>
