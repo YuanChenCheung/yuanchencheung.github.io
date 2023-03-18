@@ -17,14 +17,5 @@
       <description>使用 GitHub Desktop 来代替相对繁琐的命令行指令，以简化推送流程，降低门槛要求。</description>
     </item>
     
-    <item>
-      <title>「Vintage 红」</title>
-      <link>https://yuanchencheung.github.io/posts/test/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://yuanchencheung.github.io/posts/test/</guid>
-      <description>仅供测试</description>
-    </item>
-    
   </channel>
 </rss>
